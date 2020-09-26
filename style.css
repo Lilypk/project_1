@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    background-image: url("alps-altitude-bird-s-eye-view-2013658.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: #3693D6;
+   height: 245px;
+}
+
+h2 {
+    color: #3693D6;
+    text-align: center;
+}
+
+.about {
+    color: white;
+}
+p {
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    width: 80%;
+    grid-gap: 6px;
+   
+}
+
+.grid_images {
+    
+     background-size: cover;
+     align-items: center;
+}
+.house {
+grid-row: 1;
+grid-column: 1;
+background-image: url("house .png");
+}
+
+.dog {
+grid-row: 1;
+grid-column: 2 / span 2;
+background-image: url("dog.png")
+
+}
+
+.ski {
+grid-row: 2 / span 2;
+grid-column: 1 / span 2;
+background-image: url("ski.png");
+}
+
+.hiker {
+grid-row: 2;
+grid-column: 3;
+background-image: url("hiker.png");
+}
+
+.cross {
+grid-row: 3;
+grid-column: 3;
+background-image: url("cross.png");
+}
+
+.test {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.testi {
+    font-size: 20px;
+}
+
+.girl {
+    height: 
+}
+
+.caro {
+    color: #3693D6;
+}
+
+.girl_text {
+    color: #3693D6;
+}
+
+.footer {
+
+}

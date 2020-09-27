@@ -22,24 +22,11 @@ header {
     width: 100%;
     background-size: cover;
 }
-
-/* .flex-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-align-items: center;
-height: 100%;
-width: 100%;
-
-} */
-
 .navbar {
    display: flex;
-   
    color: white;
    width: 100%;
 }
-
 .logo {
     font-size: 25px;
     width: 50%;
@@ -52,13 +39,25 @@ width: 100%;
 .navbar li {
     margin: 10px;
 }
+.snow {
+    color: white;
+}
+.mount {
+    color: #9BC0FF;
+}
+.say-hello {
+    color: #3693D6;
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px 6px 4px 6px;
+}
 
 .big_text {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
 
 }
 
@@ -72,25 +71,22 @@ height: 400px;
 }
 
 .our_work {
-background-image: url("Our Work.svg");
-background-repeat: no-repeat;
-
-height: 20px;
-width: 70px;
-
-background-size: cover;
-background-position: center;
-
+    background-image: url("Our Work.svg");
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 70px;
+    background-size: cover;
+    background-position: center;
 }
 .about_me {
     display: flex;
     flex-direction: column;
     align-items: center;
-   background-color: #3693D6;
-   height: 185px;
-   color: white;
-   padding-top: 10px;
-font-size: 13px;
+    background-color: #3693D6;
+    height: 185px;
+    color: white;
+    padding-top: 10px;
+    font-size: 13px;
 }
 
 .about_me_words {
@@ -100,6 +96,7 @@ font-size: 13px;
     width: 66%;
     padding-top: 2px;
     font-size: 15px;
+   
 }
 
 h2 {
@@ -146,43 +143,54 @@ main {
      align-items: center;
 }
 .house {
-grid-row: 1;
-grid-column: 1;
-background-image: url("house .png");
+    grid-row: 1;
+    grid-column: 1;
+    background-image: url("house .png");
 }
 
 .dog {
-grid-row: 1;
-grid-column: 2 / span 2;
-background-image: url("dog.png")
+    grid-row: 1;
+    grid-column: 2 / span 2;
+    background-image: url("dog.png")
 
 }
 
 .ski {
-grid-row: 2 / span 2;
-grid-column: 1 / span 2;
-background-image: url("ski.png");
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 2;
+    background-image: url("ski.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+
+}
+.see-more {
+    border: 2px solid white;
+    padding: 2px 12px 2px 12px;
+    border-radius: 20px;
 
 }
 
 .hiker {
-grid-row: 2;
-grid-column: 3;
-background-image: url("hiker.png");
+    grid-row: 2;
+    grid-column: 3;
+    background-image: url("hiker.png");
 }
 
 .cross {
-grid-row: 3;
-grid-column: 3;
-background-image: url("cross.png");
+    grid-row: 3;
+    grid-column: 3;
+    background-image: url("cross.png");
 }
 
 .test {
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 35%;
-padding-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    padding-top: 19px;
 }
 
 .testi {
@@ -198,43 +206,48 @@ padding-top: 19px;
    width: 38%;
    background-size: cover;
 }
-
-/* .caro {
-    
-} */
-
 .girl_text {
     display: flex;
     flex-direction: column;
- font-size: 10px;
- line-height: 17px;
+    font-size: 10px;
+    line-height: 17px;
 
 }
 
 footer {
-display: flex;
-flex-direction: row;
-height: 150px;
-background-color: #3693D6;
-width: 100%;
-/* margin: 0; */
-/* padding: 0; */
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    background-color: #3693D6;
+    width: 100%;
+
 
 }
-
 .snow_mount {
     font-size: 20px;
     color: white;
-    /* width: 10px; */
-    /* margin: 40px; */
+   
+}
+.bottom-list {
+    display: flex;
+    width: 100%;
 }
 
-.location {
-
+.bottom-list ul {
+    display: flex;
+    list-style: none;
 }
+.bottom-list li {
+    margin: 10px;
+}
+
+
+/* .location {
+}
+
 .email {
 
 }
 .phone {
 
-}
+} */

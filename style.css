@@ -9,8 +9,8 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: lato, arial, sans-serif;
+    transition: all 1s;
 }
-
 header {
     display: flex;
     flex-direction: column;
@@ -59,16 +59,14 @@ header {
     padding: 7px 16px 7px 16px;
 }
 
-.big_text {
+.big-text {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 454px;
-
 }
-
-.wonderful_world {    
+.wonderful-world {    
     background-image: url("Wonderful World.png");
     height: 197px;
     width: 400px;
@@ -76,17 +74,15 @@ header {
     background-position: center;
     margin-bottom: 70px;
 }
-
-.our_work {
+.our-work {
     background-image: url("Our Work.svg");
     background-repeat: no-repeat;
     height: 33px;
     width: 119px;
     background-size: cover;
     background-position: center;
-    
 }
-.about_me {
+.about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,8 +92,7 @@ header {
     padding-top: 10px;
     font-size: 13px;
 }
-
-.about_me_words {
+.about-me-words {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,23 +101,18 @@ header {
     font-size: 22px;
    
 }
-
 h2 {
     color: #3693D6;
     text-align: center;
     color: white;
 }
-
-
 p {
     color: white;
     text-align: center;
 }
-
 .blue {
     color: #3693D6;
 }
-
 .work {
     font-size: 22px;
     padding: 52px;
@@ -134,7 +124,6 @@ main {
     align-items: center;
 
 }
-
 .grid {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -144,8 +133,7 @@ main {
     grid-gap: 6px;
    
 }
-
-.grid_images {
+.grid-images {
     
      background-size: cover;
      align-items: center;
@@ -155,14 +143,12 @@ main {
     grid-column: 1;
     background-image: url("house .png");
 }
-
 .dog {
     grid-row: 1;
     grid-column: 2 / span 2;
     background-image: url("dog.png")
 
 }
-
 .ski {
     grid-row: 2 / span 2;
     grid-column: 1 / span 2;
@@ -171,29 +157,24 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding: 20px; */
+    padding: 20px;
     color: white;
 }
-
 .see-more {
     border: 2px solid white;
    border-radius: 100px;
    padding: 1px 30px 1px 30px;
-
 }
-
 .hiker {
     grid-row: 2;
     grid-column: 3;
     background-image: url("hiker.png");
 }
-
 .cross {
     grid-row: 3;
     grid-column: 3;
     background-image: url("cross.png");
 }
-
 .test {
     display: flex;
     flex-direction: column;
@@ -201,12 +182,10 @@ main {
     width: 35%;
     padding-top: 38px;
 }
-
 .testi {
     font-size: 25px;
    
 }
-
 .girl {
    display: flex;
    flex-direction: column;
@@ -218,7 +197,7 @@ main {
 .caro {
     font-size: 22px;
 }
-.girl_text {
+.girl-text {
     display: flex;
     flex-direction: column;
     font-size: 16px;
@@ -256,12 +235,12 @@ footer {
     background-color: #3693D6;
     width: 100%;
     padding: 17px;
-
+    background: cover;
 }
 .icon img {
     width: 90%;
 }
-.snow_mount {
+.snow-mount {
     font-size: 20px;
     color: white;
     margin-top: 92px;
@@ -273,7 +252,6 @@ footer {
     color: white;
     font-size: 11px;
 }
-
 .bottom-list ul {
     display: flex;
     list-style: none;
@@ -294,7 +272,94 @@ footer {
     margin: 50px 5px 30px 80px;
 }
 
+@media (max-width: 898px) {
+    .say-hello {
+      background: none;
+    color: white;
+    padding: 0;
+    }
+    .girl {
+        width: 32%;
+        height: 100px;
+    }
+}
+@media (max-width: 830px) {
+.navbar ul {
+    font-size: 14px;
+}
+.girl {
+    width: 20%;
+    height: 58px;
+}
 
-
-
-
+}
+@media (max-width: 784px) {
+   .girl {
+        width: 0;
+        height: 0;
+    }
+    .grid {
+        height: 800px;
+        width: 80%;
+        
+    }
+    .grid_images {
+        font-size: 20px;
+    }
+    .see-more {
+        border: none;
+    }
+}
+@media (max-width: 650px) {
+    .navbar ul {
+        font-size: 10px;
+        padding-right: 12px;
+    }
+    .socials {
+       margin: 162px -52px 26px -53px; 
+    }
+    .grid_images {
+        font-size: 10px;
+    }
+    
+}
+@media (max-width: 530px) {
+    .top-logo {
+        padding-left: 12px;
+    }
+    .snow_mount {
+        padding-left: 12px;
+    }
+    .icon img {
+        height: 0px;
+    }
+}
+@media (max-width: 500px) {
+    .top-logo img {
+        width: 20%;
+    }
+    .about_me_words {
+        font-size: 15px;
+    }
+}
+@media (max-width: 430px) {
+    .top-logo img {
+        width: 0%;
+    }
+    .grid {
+        height: 300px;
+        width: 50%;
+    }
+    .grid_images {
+        font-size: 5px;
+        line-height: 9px;
+    }
+    .bottom-list {
+        font-size: 8px;
+    }
+    .bottom-list ul {
+        margin: 0;
+        padding: 0;
+    }
+   
+}

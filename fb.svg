@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="213.195" height="42.545" viewBox="0 0 213.195 42.545">
+  <g id="Group_17" data-name="Group 17" transform="translate(-1427.917 -4712)">
+    <g id="facebook" transform="translate(1427.917 4713.919)">
+      <g id="Group_6" data-name="Group 6">
+        <path id="Path_3" data-name="Path 3" d="M140.456,13.7V8.719a2.492,2.492,0,0,1,2.491-2.491h2.491V0h-4.982a7.473,7.473,0,0,0-7.474,7.474V13.7H128v6.228h4.982V39.859h7.474V19.929h4.982l2.491-6.228Z" transform="translate(-128)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="instagram_1_" data-name="instagram (1)" transform="translate(1503.756 4712)">
+      <g id="Group_8" data-name="Group 8">
+        <g id="Group_7" data-name="Group 7">
+          <path id="Path_4" data-name="Path 4" d="M29.25,0H13.3A13.3,13.3,0,0,0,0,13.3V29.25a13.3,13.3,0,0,0,13.3,13.3H29.25a13.3,13.3,0,0,0,13.3-13.3V13.3A13.3,13.3,0,0,0,29.25,0Zm9.307,29.25a9.317,9.317,0,0,1-9.307,9.307H13.3A9.317,9.317,0,0,1,3.989,29.25V13.3A9.317,9.317,0,0,1,13.3,3.989H29.25A9.317,9.317,0,0,1,38.557,13.3Z" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_10" data-name="Group 10" transform="translate(10.636 10.636)">
+        <g id="Group_9" data-name="Group 9">
+          <path id="Path_5" data-name="Path 5" d="M138.636,128a10.636,10.636,0,1,0,10.636,10.636A10.637,10.637,0,0,0,138.636,128Zm0,17.284a6.648,6.648,0,1,1,6.648-6.648A6.657,6.657,0,0,1,138.636,145.284Z" transform="translate(-128 -128)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_12" data-name="Group 12" transform="translate(31.29 8.421)">
+        <g id="Group_11" data-name="Group 11">
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="1.417" cy="1.417" r="1.417" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="youtube" transform="translate(1585.792 4714.559)">
+      <g id="Group_13" data-name="Group 13">
+        <path id="Path_6" data-name="Path 6" d="M52.97,83.665c-1.5-2.669-3.129-3.16-6.445-3.347C43.212,80.093,34.883,80,27.667,80S12.1,80.093,8.8,80.315c-3.309.19-4.941.678-6.455,3.35C.8,86.331,0,90.922,0,99.006v.028c0,8.049.8,12.675,2.341,15.313,1.514,2.669,3.143,3.153,6.452,3.378,3.312.194,11.645.308,18.875.308s15.545-.114,18.861-.3c3.316-.225,4.944-.709,6.445-3.378,1.559-2.638,2.348-7.264,2.348-15.313V99.01C55.321,90.922,54.532,86.331,52.97,83.665ZM20.745,109.389V88.644L38.033,99.016Z" transform="translate(0 -80)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
